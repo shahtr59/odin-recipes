@@ -8,10 +8,10 @@
     background-color: #f8f8f4;
 }
 .list {
-    list-style: none;
+    list-style-position: inside;
 }
 
-.list_item {
+li {
     position: relative;
     right: 20px;
     margin: 40px;
@@ -29,4 +29,18 @@ a {
 }
  h1,a {
     font-family:'Times New Roman', Times, serif;
+ }
+
+ ul>li {
+    position: relative;
+    right: 40px;
+ }
+ h2 {
+    position: relative;
+    right: 10px;
+ }
+ img {
+    border-radius: 25px;
+    height: 300px;
+    width: auto;
  }
